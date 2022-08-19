@@ -18,9 +18,7 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 // You need to export an object to set up your config
 // Go to https://hardhat.org/config/ to learn more
 
-/**
- * 切记私钥不要上传到仓库 切记 切记
- */
+
 
 module.exports = {
   solidity: "0.8.4",
@@ -28,7 +26,7 @@ module.exports = {
     
     "optimism": {
        url: "https://opt-mainnet.g.alchemy.com/v2/iGIWqyeE75WvhJbRuFzUtHjWFdtAOTdp",
-       accounts: [ "27ef2dd10d41f692e8ca15690cca26f3e012bfac9185d02ddbf86b36dcd93441" ]
+       accounts: [ "私钥" ]
     }
   }
 };
